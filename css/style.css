@@ -1,0 +1,685 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: "Lato", sans-serif;
+}
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+
+.bg {
+  overflow: hidden;
+  background-image: url(../img/banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+button {
+  background-color: white;
+  color: #ed145b;
+  padding: 10px 60px;
+  border-radius: 30px;
+  font-weight: 700;
+  font-size: 18px;
+  border: none;
+}
+/* Nav */
+nav span {
+  color: #ed145b;
+}
+.nav-item {
+  padding: 10px 5px;
+}
+.nav-item:hover .nav-link {
+  color: #ed145b !important;
+}
+.nav-link {
+  text-decoration: none;
+  color: white;
+  transition: 0.4s ease-in-out;
+}
+
+/* Banner Section */
+.banner {
+  padding: 100px 0px;
+}
+.banner h1 {
+  font-weight: 100 !important;
+  text-transform: uppercase;
+}
+.banner span {
+  font-weight: 700;
+}
+.banner p {
+  color: white !important;
+}
+.banner button {
+  border: none;
+  background-color: #ed145b;
+  color: white;
+  margin-top: 30px;
+  transition: 0.4s ease-in-out;
+}
+.banner button:hover {
+  background-color: white;
+  color: #ed145b;
+}
+.banner hr {
+  border: 1px solid #ed145b;
+  width: 14%;
+}
+
+.abc {
+  position: relative;
+}
+/* about section */
+.about {
+  overflow: hidden;
+  background-color: #f4f4f4;
+}
+.about hr {
+  border: 1px solid #ed145b;
+  width: 40%;
+}
+.pink {
+  margin-top: -5px;
+}
+.about-text {
+  padding: 100px 0px;
+}
+.about-text h2,
+p {
+  color: #5a5a5a !important;
+}
+
+.about button {
+  color: #ed145b;
+  border: none;
+  background-color: transparent;
+  font-weight: 700;
+}
+.about button img {
+  margin-left: 7px;
+}
+.laptop {
+  width: 60%;
+  position: absolute;
+  top: 115px;
+  right: 0px;
+}
+/* Service Section */
+.service {
+  text-align: center;
+}
+.service h2 {
+  color: #5a5a5a;
+  padding: 20px 0px;
+  margin-top: 70px;
+}
+.service h5 {
+  color: #ed145b;
+  margin-top: 15px;
+}
+.service p {
+  padding: 40px 0;
+}
+.service hr {
+  border: 1px solid #ed145b;
+  width: 20%;
+  margin: 0 auto;
+}
+.service-items {
+  margin-bottom: 100px;
+}
+.cstm-caption p {
+  font-size: 22px;
+  color: white !important;
+}
+/* Price section */
+.price {
+  background-color: #f4f4f4;
+  text-align: center;
+  padding: 100px 0px;
+}
+.price h2 {
+  color: #5a5a5a;
+}
+.price h5 {
+  color: #ed145b;
+  margin-top: 15px;
+}
+.price p {
+  padding: 40px 0;
+}
+.price hr {
+  border: 1px solid #ed145b;
+  width: 20%;
+  margin: 0 auto;
+}
+
+.card-body {
+  padding: 0;
+}
+.price h5 {
+  margin-top: 0;
+  color: white;
+  font-size: 40px;
+  padding-top: 40px;
+}
+.price h6 {
+  padding-bottom: 40px;
+  color: white !important;
+}
+
+.price-card-bg {
+  background-color: #5a5a5a;
+  position: relative;
+}
+.cstm-package {
+  position: absolute;
+  top: 85%;
+  left: 13%;
+}
+.cstm-package p {
+  background-color: #f4f4f4;
+  color: #5a5a5a;
+  padding: 10px 60px;
+  border-radius: 30px;
+  font-weight: 700;
+  font-size: 18px;
+}
+.cstm-feature {
+  padding: 10px !important;
+  margin-bottom: 0;
+}
+.cstm-features {
+  padding-top: 40px;
+}
+.card-body button {
+  background-color: #ed145b;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  padding: 10px 60px;
+  border-radius: 30px;
+  font-weight: 700;
+  font-size: 18px;
+  border: none;
+  border: 1px solid white;
+  transition: 0.4s ease-in-out;
+}
+.card-body button:hover {
+  background-color: white;
+  color: #ed145b;
+  border: 1px solid #ed145b;
+}
+.card:hover {
+  cursor: pointer;
+}
+.card:hover .price-card-bg {
+  background-color: #ed145b;
+}
+
+/* Info Section */
+.info {
+  padding: 100px 0px;
+}
+.info-text {
+}
+.info-box {
+  margin-top: 30px;
+}
+.info h5 {
+  display: inline-block;
+  color: #ed145b;
+}
+
+/* Join Section */
+.join {
+  text-align: center;
+  padding: 50px 0px;
+  background-color: #ed145b;
+}
+.join h1 {
+  display: inline-block;
+  font-weight: 300;
+  margin-right: 20px;
+}
+.join span {
+  font-weight: bold;
+}
+.join button {
+  transition: 0.4s ease-in-out;
+  border: 1px solid white;
+}
+.join button:hover {
+  color: white;
+  background-color: #ed145b;
+  border: 1px solid white;
+}
+
+/* Gallery Section */
+.gallery {
+  padding: 100px 0px;
+}
+.gallery-box {
+}
+.gallery-box-text {
+  background-color: #f4f4f4;
+  padding: 10px;
+}
+.gallery-content {
+  margin-top: 30px;
+}
+.img-box {
+  position: relative;
+}
+.img-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #ed145cb0;
+  opacity: 0;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  padding: 100px 0;
+  transition: 0.4s ease-in-out;
+}
+.gallery-content:hover {
+  cursor: pointer;
+}
+.gallery-content:hover .img-overlay {
+  opacity: 1;
+}
+.img-overlay img {
+}
+.gallery h6 {
+  color: #5a5a5a;
+  padding: 7px 0px;
+}
+.gallery p {
+  padding-right: 20px;
+}
+
+/* Contact Section */
+.contact {
+  background-image: url(../img/contactbg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 0px;
+}
+.contact-content {
+  text-align: center;
+}
+.contact hr {
+  border: 1px solid #ed145b;
+  width: 25%;
+  margin: 30px auto;
+}
+.contact-content p {
+  margin-bottom: 50px;
+}
+.contact-content button {
+  color: white;
+  background-color: #ed145b;
+  transition: 0.4s ease-in-out;
+  border: 1px solid transparent;
+}
+.contact-content button:hover {
+  color: #ed145b;
+  background-color: white;
+  border: 1px solid #ed145b;
+}
+/* Download Section */
+.download {
+  overflow: hidden;
+  padding: 100px 0px;
+}
+.download-row {
+  overflow: hidden;
+}
+.download h2 i {
+  color: #5a5a5a;
+}
+.download hr {
+  border: 1px solid #ed145b;
+  width: 35%;
+}
+.download button {
+  margin-top: 20px;
+  color: white;
+  background-color: #ed145b;
+  border: 1px solid #ed145b;
+  transition: 0.4s ease-in-out;
+}
+.download button:hover {
+  color: #ed145b;
+  background-color: white;
+  border: 1px solid #ed145b;
+}
+
+footer {
+  background-color: #2b2b2b;
+  padding: 20px 0px;
+}
+footer p {
+  display: inline-block;
+  color: white !important;
+  margin: 0px;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  /* Global */
+  h1 {
+    font-size: 30px;
+  }
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  /* Nav */
+
+  /* Header */
+
+  /* Banner Section */
+  .banner {
+    padding: 60px 0px;
+  }
+  .banner p {
+    padding: 0 20px;
+  }
+
+  /* About Section */
+  .about {
+    text-align: center;
+  }
+  .about hr {
+    margin: 0 auto;
+  }
+  .about-text {
+    padding: 50px 20px;
+  }
+  .about-text p {
+    padding-top: 20px;
+  }
+  .laptop {
+    display: none;
+  }
+  .pink {
+    margin-top: -20px;
+  }
+  /* Service Section */
+  .service {
+    padding: 60px 20px;
+  }
+  .service-items {
+    margin-bottom: 0px;
+  }
+  .service-box {
+    margin: 30px 0px;
+  }
+  .service-box h5 {
+    margin-top: 20px;
+  }
+  /* Cal Section */
+  .cal {
+    display: none;
+  }
+  /* Price Section */
+  .pricing {
+    padding: 20px 60px;
+  }
+  .cstm-package {
+    left: 28%;
+  }
+  /* Info Section */
+  .info-box {
+    padding: 0px 50px;
+  }
+  .info-img {
+    text-align: right;
+  }
+  /* Join Section */
+  .join button {
+    margin-top: 20px;
+    padding: 10px 30px;
+  }
+  /* Gallery Section */
+  .gallery {
+    text-align: center;
+  }
+  .gallery-box {
+    padding: 0px 76px;
+  }
+  /* Contact  Section */
+  .contact {
+    padding: 60px 20px;
+  }
+  /* Download Section */
+  .download {
+    overflow: hidden;
+    padding: 50px 30px;
+  }
+  .download button {
+    margin: 30px 32% 0px;
+  }
+  /* Footer */
+  footer p {
+    font-size: 13px;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  h1 {
+    font-size: 34px;
+  }
+  /* Banner Section */
+  .banner {
+    padding: 60px 0px;
+  }
+  .banner p {
+    padding: 0 20px;
+  }
+
+  /* About Section */
+  .about {
+    text-align: center;
+  }
+  .about hr {
+    margin: 0 auto;
+  }
+  .about-text {
+    padding: 50px 20px;
+  }
+  .about-text p {
+    padding-top: 20px;
+  }
+  .laptop {
+    display: none;
+  }
+  .pink {
+    margin-top: -20px;
+  }
+  /* Service Section */
+  .service {
+    padding: 60px 20px;
+  }
+  .service-items {
+    margin-bottom: 0px;
+  }
+  .service-box {
+    margin: 30px 0px;
+  }
+  .service-box h5 {
+    margin-top: 20px;
+  }
+  /* Cal Section */
+  .cal {
+    display: none;
+  }
+  /* Price Section */
+  .pricing {
+    padding: 20px 10px;
+  }
+  .cstm-package p {
+    padding: 10px 40px;
+  }
+  .cstm-package {
+    left: 20%;
+  }
+  /* Info Section */
+  .info-box {
+    padding: 0px 50px;
+  }
+  .info-img {
+    text-align: right;
+  }
+  /* Join Section */
+  .join button {
+    margin-top: 20px;
+    padding: 10px 30px;
+  }
+  /* Gallery Section */
+  .gallery {
+    text-align: center;
+  }
+  .img-overlay {
+    height: 166.656px;
+    width: 240px;
+    padding: 60px 0px;
+  }
+  /* Contact  Section */
+  .contact {
+    padding: 60px 20px;
+  }
+  /* Download Section */
+  .download {
+    overflow: hidden;
+    padding: 50px 50px;
+  }
+  .download h2 {
+    margin-top: 20px;
+  }
+  .download button {
+    margin: 30px 28% 0px;
+  }
+
+  /* Footer */
+  footer p {
+    font-size: 13px;
+  }
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* Banner Section */
+
+  /* About Section */
+  .about {
+  }
+  .pink {
+    margin-top: -10px;
+  }
+  .about-text {
+    padding: 75px 0px;
+  }
+  .about button {
+    padding-left: 0px;
+  }
+  .laptop {
+    top: 185px;
+  }
+  /* Service Section */
+  .service br {
+    display: none;
+  }
+  /* Cal Section */
+  .cal p {
+    font-size: 12px !important;
+  }
+  .carousel-caption {
+    bottom: 0;
+  }
+  .upper {
+    height: 80%;
+  }
+
+  /* Price Section */
+  .price br {
+    display: none;
+  }
+  .pricing {
+    margin-top: 30px;
+  }
+  .cstm-package {
+    left: 23%;
+  }
+  /* Info Section */
+
+  /* Join Section */
+
+  /* Gallery Section */
+  .img-overlay {
+    padding: 50px 0px;
+  }
+  /* Contact  Section */
+
+  /* Download Section */
+  .download img {
+    margin-top: 35px;
+  }
+  /* Footer */
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* Nav */
+
+  /* Header */
+
+  /* Banner Section */
+
+  /* About Section */
+  .pink {
+    margin-top: -8px;
+  }
+  /* Service Section */
+
+  /* Cal Section */
+  .cal p {
+    font-size: 18px !important;
+  }
+  .carousel-caption {
+    bottom: 0;
+  }
+  .upper {
+    height: 80%;
+  }
+
+  /* Price Section */
+  .cstm-package {
+    left: 12%;
+  }
+  .cstm-package p {
+    padding: 10px 47px;
+  }
+  /* Info Section */
+
+  /* Join Section */
+
+  /* Gallery Section */
+
+  /* Contact  Section */
+
+  /* Download Section */
+  .img-overlay {
+    padding: 78px 0px;
+  }
+  /* Footer */
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
